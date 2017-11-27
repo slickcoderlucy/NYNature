@@ -1,0 +1,44 @@
+/*MOUNTAINS PAGE CSS HERE*/
+
+img {
+display: block;
+margin: auto;
+}
+
+
+.img-fluid {max-width: 100%;
+    height: auto;
+    vertical-align:center;
+}
+[class*="col-"] {
+    padding: 5px;
+    
+}
+
+
+.col-md-6 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+
+    
+
+    
+ p{
+     
+     justify-content:left;
+     text-align:left;
+     padding: 5px;
+ }
+     
+    
+.row {
+    justify-content:center;
+}   
+    
+h1,h2,h3 {
+    
+    text-align:center;}

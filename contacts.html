@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- These meta tags are both essential! -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>NYNature</title>
+      
+      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+      
+<!-- Load custom css AFTER Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/social-likes_classic.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="bg">
+
+  
+   <div class="background">
+
+<!-------Bootstrap Navigation Bar -------->
+    
+    <header class="container2">
+      <h1>NY Nature</h1>
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-md-center nav-justified w-100">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+            </li>
+            
+            <li class="nav-item"><a class="nav-link" href="lakes.html">Lakes</a>
+            </li>
+             
+            <li class="nav-item"><a class="nav-link" href="mountains.html">Mountains</a>
+            </li>
+            
+            <li class="nav-item"><a class="nav-link" href="waterfalls.html">Waterfalls</a>
+            </li>
+              
+            <li class="nav-item active"><a class="nav-link" href="contacts.html">Contact Us<span class="sr-only">(current)</span></a>
+             </li>
+           </ul>
+        </div><!--END OF COLLAPSE NAVBAR-COLLAPSE-->
+      </nav><!--END OF NAV NAVBAR-EXPAND-->
+    </header> <!--END OF CONTAINER2-->
+       
+      
+      <div id="text5">
+         <!--<h2 id="test2">Waterfalls of New York State</h2> -->
+            <p class="text5"> Leave your contact information and we'll send you our catalog. 
+            </p>
+      </div>
+      
+           <form class="container5" id="needs-validation" novalidate>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name"  required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"  required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">State</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+ 
+
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" type="submit" data-toggle="modal" data-target=".bd-example-modal-sm">Submit Form</button>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      Thank you for subscribing!
+    </div>
+  </div>
+</div>
+  
+    </div><!--.background-->
+    
+  <footer class="footer">
+    <div class="container-footer">
+     <!--Social Media Likes -->
+        <div class="social-media">
+
+            <div class="social-likes social-likes_light d-flex justify-content-center" data-counters="no">
+                <div class="facebook" title="Share link on Facebook">Facebook</div>
+                <div class="twitter" title="Share link on Twitter">Twitter</div>
+                <div class="plusone" title="Share link on Google+">Google+</div>
+            </div>
+        <p id="p5">Created for Phase II- Winter 2017, Project Code- Tech Connect, NYPL</p>
+        </div> <!-----End of Social------>
+    </div>
+  </footer>
+<!-- Scripts should be loaded at the bottom of the body and must go in this order -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/social-likes.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

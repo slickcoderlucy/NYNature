@@ -1,0 +1,164 @@
+/* AFTER ALL your CSS MODIFICATIONS ARE COMPLETE-PLEASE PUT those HERE*/
+
+/*HOME PAGE CSS HERE */
+
+/*=======.container 2 or header REMAINS THE SAME IN ALL PAGES========*/
+.container2 h1 {
+    font-family: 'Cookie', cursive;
+}
+
+body {
+  margin-bottom: 85px;
+  
+}
+
+
+/*LAKES PAGE CSS HERE*/
+
+.card-deck {
+    margin-top: 2em;
+}
+
+body {
+  margin-bottom: 85px;
+  
+}
+
+/*WATERFALLS PAGE CSS HERE*/
+
+
+
+
+/*CONTACTS CSS AND WATERFALL CSS HERE */
+#bg
+{
+  background-image:url("../img/waterfalls/con2.jpg"); 
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:100%;
+  max-width: 100%; 
+}
+#text5
+{
+  background-color:rgba(136, 206, 164, 0.15); 
+  width:70%;
+  margin:10% 25% 5% 15%;
+}
+
+#text5, .text5
+{
+  width:90%;
+  margin:auto;
+  color:#0000FF;
+  margin-top:1%;
+  font-size:30px;
+  padding:1%;
+  text-align: center;
+}
+* #page5, .background
+{
+  height:60%;
+  max-width: 60%;
+  margin:2% 25% 5% 15%;
+}
+
+.container5
+{
+  color:#3CB371;
+  font-size:1.5em;
+}
+
+.container2 h1
+{
+  font-family: 'Cookie', cursive;
+}
+
+h2, h3
+{
+   text-align: center; 
+}
+/*============sticky footer===========*/
+html 
+{
+  position: relative;
+  min-height: 100%;
+}
+
+.footer 
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.container-footer 
+{
+  width: auto;
+  max-width: 100%;
+  padding: 15px 15px;
+}
+
+.social-likes, .social-likes_light {
+  width: 100%;
+}
+
+.col-md-6-4
+{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+}
+   
+.p4, p
+ {
+  justify-content:center;
+  text-align:center;
+  padding: 5px;
+  font-size:1em;
+  color:#008B8B;
+ }
+ 
+ 
+ h2, h3
+ { 
+  justify-content:center;
+  text-align:center;
+  padding: 5px;
+ }
+     
+    
+.row4 
+{
+ justify-content:center;
+}   
+    
+#h1-4,h2,h3 
+{  
+  text-align:center;
+  color:#00008B;
+  }
+
+#p5
+{ 
+  color:#FFEFD5;
+}
+
+h1
+{
+  text-align:left;
+}
+
+.h3-1
+{
+  color:#FFFACD;
+}
+
+
+ 
+
